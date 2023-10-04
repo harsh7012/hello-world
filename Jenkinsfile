@@ -2,7 +2,7 @@
     agent any
 
     environment {
-        DOCKER_REGISTRY = 'harsh7012'
+        DOCKER_REGISTRY = 'pharshvardhan'
         DOCKER_REPO = 'hello-world'
         DOCKER_CREDENTIAL_ID = 'DOCKER_CREDENTIALS'
         BUILD_NUMBER = "${env.BUILD_NUMBER}"
