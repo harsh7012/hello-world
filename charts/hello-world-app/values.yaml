@@ -1,6 +1,6 @@
 replicaCount: 3
 image:
-  repository: jilani1/hello-world
+  repository: harsh7012/hello-world
   pullPolicy: IfNotPresent
   tag: ""
 
