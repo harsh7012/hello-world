@@ -1,4 +1,4 @@
-FROM gradle:8.3.0-jdk20 AS build
+FROM gradle:5.0.0-jdk11 AS build
 
 COPY --chown=gradle:gradle . /home/gradle/src
 
