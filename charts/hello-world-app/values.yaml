@@ -1,6 +1,6 @@
 replicaCount: 3
 image:
-  repository: harsh7012/hello-world
+  repository: pharshvardhan/hello-world
   pullPolicy: IfNotPresent
   tag: ""
 
