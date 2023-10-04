@@ -105,7 +105,7 @@
             if [ ! -f /usr/local/bin/aws ];
             then
                 echo "Installing AWS CLI"
-                curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+                curl "https://awscli.amazonaws.com/awscli-exe-linux-aarch64.zip" -o "awscliv2.zip"
                 unzip awscliv2.zip
                 yes | ./aws/install
                 aws --version
