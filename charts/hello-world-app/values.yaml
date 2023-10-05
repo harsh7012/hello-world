@@ -4,9 +4,6 @@ image:
   pullPolicy: IfNotPresent
   tag: ""
 
-imagePullSecrets:
-  - name: nexus-credentials
-
 nameOverride: ""
 fullnameOverride: ""
 
